@@ -1,0 +1,2 @@
+1.__slots__作用是阻止在实例化类时为实例分配dict
+2.metaclass=abc.ABCMeta 只能被继承，不能实例化，实例化会报错

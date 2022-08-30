@@ -25,7 +25,7 @@ from vnpy_ctastrategy import CtaStrategyApp
 from vnpy_ctabacktester import CtaBacktesterApp
 from vnpy_spreadtrading import SpreadTradingApp
 from vnpy_algotrading import AlgoTradingApp
-# from vnpy_optionmaster import OptionMasterApp
+from vnpy_optionmaster import OptionMasterApp
 from vnpy_portfoliostrategy import PortfolioStrategyApp
 from vnpy_scripttrader import ScriptTraderApp
 from vnpy_chartwizard import ChartWizardApp
@@ -69,7 +69,7 @@ def main():
     # main_engine.add_gateway(NhFuturesGateway)
     # main_engine.add_gateway(NhStockGateway)
 
-    main_engine.add_app(PaperAccountApp)
+    # main_engine.add_app(PaperAccountApp)
     main_engine.add_app(CtaStrategyApp)
     main_engine.add_app(CtaBacktesterApp)
     # main_engine.add_app(SpreadTradingApp)
@@ -80,8 +80,8 @@ def main():
     # main_engine.add_app(ChartWizardApp)
     # main_engine.add_app(RpcServiceApp)
     # main_engine.add_app(ExcelRtdApp)
-    main_engine.add_app(DataManagerApp)
-    main_engine.add_app(DataRecorderApp)
+    # main_engine.add_app(DataManagerApp)
+    # main_engine.add_app(DataRecorderApp)
     # main_engine.add_app(RiskManagerApp)
     # main_engine.add_app(WebTraderApp)
     # main_engine.add_app(PortfolioManagerApp)
